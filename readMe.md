@@ -11,8 +11,9 @@
 1. find issuer from openid-configuration, i.e. http://localhost:8080/auth/realms/demo/.well-known/openid-configuration
 2. find public_key from issuer, i.e. http://localhost:8080/auth/realms/demo
 3. save public_key as cert.pem
+
 -----BEGIN PUBLIC KEY-----
-<public key>
+public key
 -----END PUBLIC KEY-----
 
 ```
